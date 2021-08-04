@@ -2,9 +2,9 @@ package com.johnandrade;
 
 public class PrecioTotal {
     // Atributos
-    private Double totalCafe;
-    private Double totalCafeNacional;
-    private Double totalCafeExportacion;
+    private Double totalCafe = 0.0;
+    private Double totalCafeNacional = 0.0;
+    private Double totalCafeExportacion = 0.0;
 
     // Constructor
     PrecioTotal(Cafe[] cafes) {
