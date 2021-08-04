@@ -42,6 +42,7 @@ public class CafeExportacion extends Cafe {
   }
 
   // Métodos
+  // la aplicación utiliza SUPER para referirse a una variable local en un método y a una variable de la superclase que tiene el mismo nombre. El programa también utiliza super para invocar al constructor de la superclase desde en constructor de la subclase
   public Double calcularPrecio() {
     Double adicion = 0.0;
     adicion = super.calcularPrecio();
