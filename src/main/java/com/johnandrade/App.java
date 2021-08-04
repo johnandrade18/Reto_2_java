@@ -2,7 +2,7 @@ package com.johnandrade;
 
 public class App 
 {
-    public static void main( String[] args ) throws Exception
+    public static void main( String[] args )
     {
         Cafe cafe[]=new Cafe[10];
         cafe[0]=new Cafe(250.0, 50, 'D');

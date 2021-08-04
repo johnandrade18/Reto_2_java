@@ -3,6 +3,8 @@ package com.johnandrade;
 public class Cafe {
 
   // Constantes y Atributos
+  //Protected: son aquellos que son visibles solo en las clases
+  // a las que pertenecen además
   protected Integer PESO_BASE = 5;
   protected char CALIDAD_C_BASE = 'F';
   protected Double PRECIO_BASE = 100.0;
